@@ -67,4 +67,11 @@ public interface Deque<T> {
      * @throws IndexOutOfBoundsException if the index is out of range
      */
     T get(int index);
+
+    /** Prints the list. Works for ANY kind of list. */
+    default void print() {
+        for (int i = 0; i < size(); i = i + 1) {
+            System.out.print(get(i) + " ");
+        }
+    }
 }

@@ -25,6 +25,8 @@ public class ArrayDequeTest {
         for (Integer i : deque2) {
             System.out.println(i);
         }
+        deque.print();
+        deque2.print();
     }
 
     @Test

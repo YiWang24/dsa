@@ -31,7 +31,7 @@ public class ArrayList<T> implements List<T>, Iterable<T> {
 
         @Override
         public boolean hasNext() {
-            return items[index] != null;
+            return index < size;
         }
 
         @Override

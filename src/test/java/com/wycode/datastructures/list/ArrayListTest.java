@@ -20,6 +20,7 @@ public class ArrayListTest {
         for (Integer i : list) {
             System.out.println(i);
         }
+        list.print();
     }
 
     @Test

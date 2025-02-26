@@ -49,5 +49,5 @@ The project follows a **modular package structure** to separate different topics
 
 ### **Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/dsa-learning.git
-cd dsa-learning
+git clone https://github.com/YiWang24/dsa.git
+cd dsa

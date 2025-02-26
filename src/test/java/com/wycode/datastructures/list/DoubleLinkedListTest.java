@@ -23,6 +23,7 @@ public class DoubleLinkedListTest {
         for (Integer i : list) {
             System.out.println(i);
         }
+        list.print();
     }
 
     @Test
