@@ -95,7 +95,7 @@ public class WeightedQuickUnionDS implements DIsJointSets {
      * @param p First element.
      * @param q Second element.
      *
-     * Time Complexity:  **O(log N)**
+     * Time Complexity:  **O(α(N))**, nearly **O(1)**
      */
     @Override
     public void connect(Object p, Object q) {
